@@ -1,13 +1,9 @@
-pipeline 
-{
+pipeline {
     agent any
-    stages 
-    {
-        stage("Hola Mundo!") 
-        {
-            steps 
-            {
-                echo "Hola Mundo!!!!!!"
+    stages {
+        stage('Prueba') {
+            steps {
+                echo "¡Funciona Jenkins!"
             }
         }
     }
