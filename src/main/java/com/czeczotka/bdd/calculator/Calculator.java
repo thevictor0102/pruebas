@@ -19,6 +19,11 @@ public class Calculator {
     public void elevado(double arg1, double arg2) {
         result = Math.pow(arg1,arg2);
     }
+    // esto lo vamos a mantener
+    public void elevado2(double arg1, double arg2) {
+        result = Math.pow(arg1,arg2);
+    }
+    
     public double getResult() {
         return result;
     }
