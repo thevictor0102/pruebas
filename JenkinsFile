@@ -1,0 +1,14 @@
+pipeline
+{
+  agent any
+  stages
+  {
+    stage("Hola Mundo desde la rama principan")
+    {
+      steps
+      {
+        echo "Hola Mundo desde main"
+      }
+    }
+  }
+}
