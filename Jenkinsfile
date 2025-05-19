@@ -7,7 +7,7 @@ pipeline
     {
       steps
       {
-        echo "Hola Mundo!!!!!!"
+        echo "Hola Mundo desde la ramaPrueba :D"
       }
     }
   }
