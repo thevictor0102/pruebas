@@ -3,7 +3,7 @@ pipeline
   agent any
   stages 
   {
-    stage('Test') 
+    stage('Calculator cucumber test') 
     {
       steps 
       {
