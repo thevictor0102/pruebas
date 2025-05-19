@@ -14,7 +14,7 @@ pipeline {
   
         string (
             name: 'REPO_URL',
-            defaultValue: 'https://gitlab.alten.es/practicafinalqa/practicafinalgrupo2.git',
+            defaultValue: 'https://github.com/thevictor0102/pruebas.git',
             description: 'Enter the repository to Test'
         )
     }
