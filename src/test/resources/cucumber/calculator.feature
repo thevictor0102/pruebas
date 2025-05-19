@@ -24,7 +24,7 @@ Feature: Calculator
     @divide
     Scenario: Divide two numbers
     When I divide 6 and 2
-    Then the result should be 4
+    Then the result should be 3
     
     @elevar
     Scenario: Elevar un numero a otro numero
