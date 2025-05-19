@@ -1,13 +1,15 @@
 pipeline
 {
   agent any
-  stages
+  stages 
   {
-    stage("Hola Mundo!")
+    stage('Test') 
     {
-      steps
+      steps 
       {
-        echo "Hola Mundo desde la ramaPrueba :D"
+        sh """
+        mvn clean test -D cucumber.features="src/test/resources/cucumber/Calculator.feature"
+        """
       }
     }
   }
