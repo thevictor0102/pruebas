@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Prueba') {
+        stage('RAMA MAIN') {
             steps {
-                echo "¡Funciona Jenkins!"
+                echo "Hola mundo desde la RAMA MAIN"
             }
         }
     }
