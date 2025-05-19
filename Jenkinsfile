@@ -7,9 +7,7 @@ pipeline
     {
       steps 
       {
-        sh """
-        mvn clean test -D cucumber.features="src/test/resources/cucumber/Calculator.feature"
-        """
+        bat 'mvn clean test -D cucumber.features="src/test/resources/cucumber/Calculator.feature"'
       }
     }
   }
