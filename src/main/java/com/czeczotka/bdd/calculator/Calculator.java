@@ -19,6 +19,16 @@ public class Calculator {
     public void elevado(double arg1, double arg2) {
         result = Math.pow(arg1,arg2);
     }
+	
+    // Nueva funcionalidad de ramaPrueba2
+    public void elevadoRamaPrueba2(double rama2, double prueba2) {
+        result = Math.pow(rama2,prueba2);
+    }
+
+    public void divideRamaPrueba2(double rama2, double prueba2) {
+        result = rama2 / prueba2;
+    }
+	
     public double getResult() {
         return result;
     }
